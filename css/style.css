@@ -83,7 +83,7 @@ footer {
   border-radius: 10px;
 }
 
-@media (min-width: 900px) {
+@media screen and (min-width: 900px) {
   div {
     width: 100vw;
     height: 100vh;
@@ -102,8 +102,8 @@ footer {
   }
 
   section {
-    width: 350px;
-    height: 225px;
+    width: 100%;
+    height: 300px;
     background-color: #26b47e;
     border-radius: 10px;
     padding: 10px;
@@ -126,8 +126,8 @@ footer {
 
   #aside-1,
   #aside-2 {
-    width: 200px;
-    height: 225px;
+    width: 70%;
+    height: 300px;
     grid-column: span 1;
     display: flex;
     justify-content: center;
