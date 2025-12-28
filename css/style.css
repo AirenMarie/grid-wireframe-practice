@@ -82,3 +82,64 @@ footer {
   font-size: 1.7em;
   border-radius: 10px;
 }
+
+@media (min-width: 900px) {
+  div {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  header {
+    width: 90%;
+    height: 100px;
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  section {
+    width: 350px;
+    height: 225px;
+    background-color: #26b47e;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+
+  article {
+    width: 80%;
+    height: 80%;
+    background-color: #e5195b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+
+  #aside-1,
+  #aside-2 {
+    width: 200px;
+    height: 225px;
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer {
+    width: 90%;
+    height: 100px;
+    grid-column: span 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
